@@ -45,19 +45,23 @@
     margin: 0 1vw;
   }
   nav ul li :hover {
-    background-color: #ff0000;
+    background-color:rgb(211, 12, 12);
     border-radius: 10px;
   }
-  nav .servicios-nav ul li {
-    font-size: 2vw;
-    color: whitesmoke;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 300ms ease-in-out;
-  }
-  nav .servicios-nav ul li :hover {
-    background-color: red;
-    border-radius: 10px;
-  }
+
   
   /* NAVBAR */
+  /*INDEX*/
+
+section .card{
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+    
+
+}
+section .img-fluid{
+    display: flex;
+    margin: 3%;
+    size: 60%;
+}
