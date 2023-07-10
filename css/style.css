@@ -8,6 +8,7 @@
   @font-face {
     font-family: 'Lato', sans-serif;
     font-family: 'Source Sans 3', sans-serif;
+    src: local();
   }
   
 
@@ -28,7 +29,7 @@
     color: rgb(211, 12, 12);
     font-weight: bolder;
   }
-  header button{
+  header span{
     margin: 0.5vw 2vw;
   }
   /* NAVBAR */
