@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  @font-face {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+  }
+  
+
+  body {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(212, 49, 44);
+    background-color: rgb(26, 26, 26);
+    height: 100vh;
+    max-width: 100%;
+  }
+  /*CABECERA*/
+  header img{
+    width: 11vw;
+    margin: 0.5vw 2vw;
+  }
+  header h1{
+    margin: 0.5vw 2vw;
+    color: rgb(211, 12, 12);
+    font-weight: bolder;
+  }
+  header button{
+    margin: 0.5vw 2vw;
+  }
+  /* NAVBAR */
+  nav ul li {
+    font-style: semi bold;
+    font-size: 2vw;
+    color: whitesmoke;
+  }
+
+  nav ul li {
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0 1vw;
+  }
+  nav ul li :hover {
+    background-color: #ff0000;
+    border-radius: 10px;
+  }
+  nav .servicios-nav ul li {
+    font-size: 2vw;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+  }
+  nav .servicios-nav ul li :hover {
+    background-color: red;
+    border-radius: 10px;
+  }
+  
+  /* NAVBAR */
