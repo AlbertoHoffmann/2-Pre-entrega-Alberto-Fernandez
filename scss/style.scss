@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+    src: local();
+  }
+  
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(212, 49, 44);
+    background-color: rgb(26, 26, 26);
+    height: 100vh;
+    max-width: 100%;
+  }
+
+header{
+
+    h1{
+        margin: 0.5vw 2vw;
+        color: rgb(211, 12, 12);
+        font-weight: bolder;
+    }
+    img{
+        width: 11vw;
+        margin: 0.5vw 2vw; 
+    }
+    span{
+        margin: 0.5vw 2vw;
+    }
+}
+
+nav{
+    ul li {
+        font-style: semi bold;
+        font-size: 2vw;
+        color: whitesmoke;
+        cursor: pointer;
+        border-radius: 10px;
+        margin: 0 1vw;
+    }
+    ul li :hover {
+        background-color:rgb(211, 12, 12);
+        border-radius: 10px;
+    }
+
+}
+
+section{
+    .card{
+        display: flex;
+        margin: 5%;
+        justify-content: center;
+    }
+    .img-fluid{
+        display: flex;
+        margin: 3%;
+        size: 60%;
+    }
+    .btn-danger{
+        background-color:rgb(211, 12, 12) ;
+        border-color: rgb(199, 10, 10);
+        :hover{
+            background-color:rgb(134, 25, 25) ;
+            border-color: rgb(130, 21, 21);
+        }
+    }
+
+}
+
+.servicios-index{
+    h2{
+        font-style: bold;
+        font-size: 28px;
+        color: whitesmoke;
+        text-align: center;  
+    }
+    img{
+        height: 25vw;
+        width: 100%;
+    }
+    .col :hover{
+        background-color:rgba(211, 12, 12, 0.461);
+        border-radius: 10px;
+}
+}
+
+.nosotros {
+    h2{
+        font-style: bold;
+        font-size: 28px;
+        color: whitesmoke;
+        text-align: center;
+    }
+    img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+
+footer{
+    .footer-contacto{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-left: 20px;
+        :hover{
+            color:rgb(134, 25, 25);
+        }
+    }
+    .logo{
+        width: 250px;
+    }
+    .card{
+        border-width: 0;
+    }
+    iframe{
+        width: 85%;
+        height: 80%;
+    }
+}

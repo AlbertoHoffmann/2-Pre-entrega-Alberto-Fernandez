@@ -1,1 +1,120 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+  src: local();
+}
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgb(212, 49, 44);
+  background-color: rgb(26, 26, 26);
+  height: 100vh;
+  max-width: 100%;
+}
+/*cabecera*/
+header h1 {
+  margin: 0.5vw 2vw;
+  color: rgb(211, 12, 12);
+  font-weight: bolder;
+}
+header img {
+  width: 11vw;
+  margin: 0.5vw 2vw;
+}
+header span {
+  margin: 0.5vw 2vw;
+}
+/*cabecera*/
+/*navbar*/
+nav ul li {
+  font-style: semi bold;
+  font-size: 2vw;
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 0 1vw;
+}
+nav ul li :hover {
+  background-color: rgb(211, 12, 12);
+  border-radius: 10px;
+}
+/*navbar*/
+/*index*/
+/*promociones card en index*/
+section .card {
+  display: flex;
+  margin: 5%;
+  justify-content: center;
+}
+section .img-fluid {
+  display: flex;
+  margin: 3%;
+  size: 60%;
+}
+section .btn-danger {
+  background-color: rgb(211, 12, 12);
+  border-color: rgb(199, 10, 10);
+}
+section .btn-danger :hover {
+  background-color: rgb(134, 25, 25);
+  border-color: rgb(130, 21, 21);
+}
+/*promociones card en index*/
+/*servicios card en index*/
+.servicios-index h2 {
+  font-style: bold;
+  font-size: 28px;
+  color: whitesmoke;
+  text-align: center;
+}
+.servicios-index img {
+  height: 25vw;
+  width: 100%;
+}
+.servicios-index .col :hover {
+  background-color: rgba(211, 12, 12, 0.461);
+  border-radius: 10px;
+}
+/*servicios card en index*/
+/*index*/
+
+/*nosotros*/
+.nosotros h2 {
+  font-style: bold;
+  font-size: 28px;
+  color: whitesmoke;
+  text-align: center;
+}
+.nosotros img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*nosotros*/
+/*footer*/
+footer .footer-contacto {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-left: 20px;
+}
+footer .footer-contacto :hover {
+  color: rgb(134, 25, 25);
+}
+footer .logo {
+  width: 250px;
+}
+footer .card {
+  border-width: 0;
+}
+footer iframe {
+  width: 85%;
+  height: 80%;
+}/*# sourceMappingURL=style.css.map */
+/*footer*/

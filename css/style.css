@@ -140,7 +140,7 @@ footer iframe{
     width: 85%;
     height: 80%;
 }
-
+/* falta add en el sass*/
 @media screen and (max-width: 640px) {
     header img {
       width: 20vw;
