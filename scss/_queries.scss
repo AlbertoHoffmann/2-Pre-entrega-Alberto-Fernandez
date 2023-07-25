@@ -1,0 +1,63 @@
+@media screen and (max-width: 640px) {
+  header {
+      img {
+        width: 20vw;
+        margin: 1vw 2vw;
+      }
+    }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  h2 {
+    font-size: 6vw;
+  }
+
+  h5 {
+    font-size: 8vw;
+    font-style: bold;
+  }
+
+  p{
+    font-size: 5vw;
+  }
+
+  nav {
+      ul {
+        li {
+          font-size: 5vw;
+        }
+      }
+  }
+
+  section{
+    .servicios-index {
+      img{
+        height: 100%;
+        width: 100%;
+    }
+    }
+  }
+
+  footer {
+    .footer-logo{
+      display: flex;
+      justify-self: center;
+     
+      margin-left: 30px;
+      width:60vw;
+    }
+    .footer-contacto{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      margin: 0%;
+      justify-content: center;
+    }
+    iframe{
+        width: 80%;
+        height: 75%;
+    }
+  } 
+}

@@ -28,7 +28,9 @@
     margin: 0.5vw 2vw;
     color: rgb(211, 12, 12);
     font-weight: bolder;
+    animation: bounce infinite;
   }
+
   header span{
     margin: 0.5vw 2vw;
   }
@@ -81,6 +83,7 @@ section .btn-danger{
     font-size: 28px;
     color: whitesmoke;
     text-align: center;
+    text-decoration: none;
 }
 .servicios-index img{
     height: 25vw;
